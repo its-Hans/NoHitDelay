@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"id": "${id}",
+	"name": "${name}",
+	"version": "${version}",
+	"description": "skip MinecraftClient#attackCooldown check in MinecraftClient#doAttack().",
+	"authors": [
+		"iMakeCat"
+	],
+	"environment": "client",
+	"mixins": [
+		"nohitdelay.mixins.json"
+	]
+}
