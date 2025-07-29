@@ -1,9 +1,10 @@
 {
 	"schemaVersion": 1,
-	"id": "${id}",
+	"id": "nohitdelay",
 	"name": "${name}",
 	"version": "${version}",
-	"description": "skip MinecraftClient#attackCooldown check in MinecraftClient#doAttack().",
+	"icon": "assets/nohitdelay/nohitdelay-11.png",
+	"description": "skip attack hit-delay check",
 	"authors": [
 		"iMakeCat"
 	],

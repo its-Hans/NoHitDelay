@@ -19,7 +19,6 @@ dependencies {
 }
 
 def i = [
-        id: mod_id,
 		name: mod_name,
 		version: mod_version
 ]
@@ -34,6 +33,6 @@ processClientResources {
 jar {
 	inputs.properties(i)
 	from('LICENSE') {
-		rename { "${it}_${inputs.properties.id}" }
+		rename { "${it}_${inputs.properties.name}" }
 	}
 }
