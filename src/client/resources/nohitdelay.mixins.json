@@ -1,13 +1,13 @@
 {
-	"required": true,
-	"package": "make.nohitdelay",
-	"client": [
-		"MixinMinecraftClient"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
-	}
+  "required": true,
+  "package": "make.nohitdelay",
+  "client": [
+    "MixinClientPlayerInteractionManager"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
 }
